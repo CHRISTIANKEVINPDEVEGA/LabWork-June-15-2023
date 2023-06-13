@@ -51,7 +51,7 @@ public class ParenthesisScan {
                                 isBal=false;
                                 break;
                             }
-                    else{
+                    else if(charArray[forward_count] == '}' || charArray[forward_count] == ']' ||charArray[forward_count] == ')' ){
                         isBal = false;
                     }                    
                         
